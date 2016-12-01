@@ -1,4 +1,4 @@
-package com.insightfullogic.java8.answers.chapter4;
+package com.insightfullogic.java8.answers.chapternone;
 
 /**
  * Created by wangchangye on 2016/12/1.

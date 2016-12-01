@@ -1,4 +1,4 @@
-package com.insightfullogic.java8.answers.chapter4;
+package com.insightfullogic.java8.answers.chapternone;
 
 import java.util.ArrayList;
 import java.util.Comparator;
