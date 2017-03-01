@@ -1,6 +1,7 @@
 package com.insightfullogic.java8.answers.chapternone;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -18,6 +19,10 @@ public class UserlistTest {
 		//Collections.sort(list, Comparator.comparingInt(User::getAge));
 		List<User> userList = list.parallelStream().sorted(Comparator.comparing(User::getAge)).collect(Collectors.toList());
 		System.out.println(userList);
+
+
+		int[] arr = {1,2,3,4,5,6,7,8,9,10};
+		Arrays.stream(arr).forEach(value -> System.out.println(value));
 
 	}
 
